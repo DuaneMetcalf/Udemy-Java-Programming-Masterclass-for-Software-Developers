@@ -1,0 +1,8 @@
+/*
+* Create a variable with the appropriate type to store the number of pounds to be converted to kilograms
+* Calculate the result based on the value of the variable above, and store the result in an appropriate variable
+* Print out the result.
+* 
+* 1 pound = 0.45359237 kilograms
+*
+* */
