@@ -1,0 +1,9 @@
+Create a for statement using a range of numbers from 1 to 1000 inclusive.
+
+Sum all the numbers that can be divided by both 3 and 5
+
+For those numbers that meet the above conditions, print out the number.
+
+Break out of the loop once you find 5 numbers that met the above conditions.
+
+Print out the sum of the numbers

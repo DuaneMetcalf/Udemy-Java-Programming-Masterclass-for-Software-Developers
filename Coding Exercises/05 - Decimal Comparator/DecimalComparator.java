@@ -6,7 +6,8 @@ public class DecimalComparator{
         int numberOne = (int) (firstNumber * 1000);
         int numberTwo = (int) (secondNumber * 1000);
 
-        if (numberOne == numberTwo) {
+        if (numberOne == numberTwo) 
+		{
             areEqual = true;
         }
 
