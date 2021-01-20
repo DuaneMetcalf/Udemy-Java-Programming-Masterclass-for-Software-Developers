@@ -1,0 +1,7 @@
+Write a method with the name sumDigits that has one int parameter called number.
+
+If parameter is greater than, or equal, to 10, then the method should process the number and return the sum of all the digits, otherwise return -1 to indicate an invalid value.
+
+The numbers 0 to 9, and all negative numbers are invalid values.
+
+Calling the method sumDigits(125) should return the value 8 (1 + 2 + 5 = 8 )
