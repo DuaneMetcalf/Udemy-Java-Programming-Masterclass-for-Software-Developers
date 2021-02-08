@@ -1,0 +1,6 @@
+Start with a base class of a Vehicle, then create a Car class that inherits from this base class.
+Create another class, a specific type of Car that inherits from the Car class.
+You sshould be able to handle sterring, changing gears and moving (speed).
+Decide where to put the appropriate states and behaviours (fields and methods).
+
+For the specific type of vehicle, you will want to add something specific for that type of car.
