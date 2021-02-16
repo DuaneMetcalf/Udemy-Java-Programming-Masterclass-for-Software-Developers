@@ -1,0 +1,15 @@
+The purpose of this application is to help a fictional company called Bills Burgers to manage their process of selling hamburgers.
+Our application will help Bill to select different types of burgers, some additional items to be added to the burgers and the pricing.
+We want to create a base hamburger, but also two other types of hamburgers.
+
+The basic hamburger should have the following items:
+Bread roll type, type of meat and up to 4 additional items (things like lettuce, tomato, ketchup etc.) that the customer can select to be added to the burger. Each one of these items gets charged an additional price so you may need some way to track how many items get added and to calculate the final price (base price plus all additions)
+The constructor for the base Hamburger class should only include the bread roll type, the meat and the base price. Can also include the name or the burger, or use a setter method for this.
+
+Also create two subclasses of the Hamburger class to cater for a Healthy Burger and a Deluxe Burger.
+
+The healthy burger should be on a brown bread rye roll and can have 2 extra items added, for a total of 6 additions. Since the extra 2 additions are only for the healthy burger, you may want to process these in the healthy burger class.
+
+The deluxe burger comes with chips and a drink as additions, but no other extras can be added. You will have to find a way to automatically add these two additions at the time the deluxe burger object is created, and then prevent other additions being made.
+
+All three classes should have a method that can be called anytime to show the base price of the burger, plus all additions, each showing the addition name and addition price, and a final total for the complete burger.

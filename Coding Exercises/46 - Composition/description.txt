@@ -1,0 +1,16 @@
+This is an exercise in Class Composition. To complete the exercise, you must create five classes with associated member variables and methods.
+
+The five classes should be created as follows:
+
+1 - Create a class and name it Lamp. Inside this class should be declared the member variables, style of type String, battery of type boolean and globRating of type int. All variables should be marked private.
+A constructor needs to be created which accepts the three member variables as parameters. In addition, four methods should also be created. turnOn() has no return type and should print message "Lamp -> Turning on", getStyle() returns the lamp style, isBattery() returns the value of batter and getGlobRating() returns the globRating of the lamp.
+
+2 - Create a class and name it Bed. Five private member variables should be declared: style of type String, and pillows, height, sheets and quilt all of type int.
+A constructor which accepts these five member variables as parameters, Six methods should also be defines, make() has no return type and prints "Bed -> Making | ", getStyle() returns the value of style, getPillows(), getHeight(), getSheets() and getQuilt() which returns the value of the respective fields.
+
+3 - Create a class with the name Ceiling that has two member variables. Height and paintedColor, both of type int. There should also be a constructor that accepts both variables as parameters. Two additional methods should be defined: getHeight returns the value of height, and getPaintedColor() should return the value of paintedColor.
+
+4 - Create a class with the name Wall. It contains one member variable, direction of type String. A constructor for Wall should accept one parameter for the direction variable. A getter should also be defined for the direction field called getDirection()
+
+5 - Create a class with the name Bedroom. This should contain 8 member variables: name of type String, wall1, wall2, wall3, wall4 of type Wall, ceiling of type Ceiling, bed of type Bed and lamp of type Lamp. The class constructor should accept all 8 variables as parameters.
+There should also be two additional methods, getLamp() with returns an object of type Lamp and makeBed() with prints "Bedroom -> Making bed | " and also calls the make() method from the Bed class.

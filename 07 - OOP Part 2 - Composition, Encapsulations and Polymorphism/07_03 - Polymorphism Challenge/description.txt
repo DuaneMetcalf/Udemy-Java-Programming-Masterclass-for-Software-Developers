@@ -1,0 +1,6 @@
+Create a base class called Car.
+It should have a few fields that would be appropriate for a generic car class, engine, cylinders, wheels etc.
+The constructor should intialise the number of cylinders, the name, set wheels to 4 and the engine to true.
+
+Create some methods to start the engine, accelerate and brake with each method outputting a message for the base class.
+In the same Java file, create 3 subclasses for different vehicles and override the methods to demonstrate polymorphism in use.

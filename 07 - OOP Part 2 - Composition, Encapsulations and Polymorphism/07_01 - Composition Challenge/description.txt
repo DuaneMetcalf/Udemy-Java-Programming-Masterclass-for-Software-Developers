@@ -1,0 +1,5 @@
+Create a single room of a house using composition.
+Think about the things that should be included in the room.
+Make physical parts of the house but the furniture too.
+Add at least one method to access an object via a getter and then that objects public method.
+Add at least one method to hide the object, not using a getter, but to access the object used in composition with the main class.

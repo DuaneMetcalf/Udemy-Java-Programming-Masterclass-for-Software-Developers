@@ -1,0 +1,13 @@
+Create a class and name it Printer. The class will have two member variables of type int, tonerLevel and pagesPrinted and one boolean variable named duplex. All three fields will be private access.
+
+The constructor will accept two parameters, tonerLevel and duplex, following set rules.
+tonerLevel must be greater than -1 and less than, or equal to 100. The value should be set to -1 if this criteria is not met
+Duplex should be initialised to the value of the parameter.
+pagesPrinted should be set to 0
+
+Three other methods need to be created.
+addToner() will accept one parameter, tonerAmount of type int. tonerAmount should be greater than 0 and less than, or equal to 100. If this condition is met, a second check must be included to test whether tonerLevel plus tonerAmount is greater than 100. If so, then the method returns -1. If not, then the tonerLevel should have the tonerAmount added to it and the new tonerLevel returned by the method.
+
+printPages() will accept one parameter of type int names pages. A variable called pagesToPrint should be created and initialised to the value of the incoming parameter. A conditional check should be performed on whether the Printer class field duplex is either true or false. If true, then a calculation must be performed to determine the number of pages needed to print the job double sided. The pagesToPrint value is then added to the class field, pagesPrinted, but the value of pagesToPrint should be returned by the method.
+
+getPagesPrinted has no parameters and just needs to return the value of the member variable pagesPrinted.
