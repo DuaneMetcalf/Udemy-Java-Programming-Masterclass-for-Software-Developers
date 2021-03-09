@@ -1,0 +1,13 @@
+Your job is to create a simple banking application.
+There should be a Bank class that should have an ArrayList of Branches. The Bank needs to be able to add a new branch, add a customer to that branch with an initial transaction, and a transaction for the customer/branch and show a list of users for a branch, and optionally a list of the transactions for the users.
+
+Each Branch should have an ArrayList of customers. It also needs to be able to add a new customer and an initial transaction amount. You will also need to be able to add additional transactions for the customer/branch.
+
+The Customer class should have a name and an ArrayList of Doubles for transactions.
+
+Demonstrate autoboxing/unboxing in the code.
+Hint: transactions.
+Add data validation:
+Does it exist, etc.
+
+Think about where you are adding the code to perform certain actions.

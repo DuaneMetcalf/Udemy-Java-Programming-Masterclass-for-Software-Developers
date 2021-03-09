@@ -1,0 +1,7 @@
+Create a program using arrays that sorts a list of integers in descending order, so if the array had the values 106, 26, 81, 5, 15 the program should have an array with the values in the order of 106, 81, 26, 15, 5.
+
+Set up the array so the values are read and input from the keyboard.
+Implement the following methods - getIntegers, printArray and sortIntegers.
+getIntegers() returns an array of entered integers from the keyboard.
+printArray() prints out the contents of the array
+sortIntegers() sorts the array and returns a new array containing the sorted numbers.

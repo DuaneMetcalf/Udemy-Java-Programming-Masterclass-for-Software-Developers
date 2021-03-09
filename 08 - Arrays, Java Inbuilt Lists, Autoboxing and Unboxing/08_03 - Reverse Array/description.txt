@@ -1,0 +1,4 @@
+Write a method called revers() win an int array as a parameter. The method should not return any value.
+In main() test the reverse method and print the array both as entered and reversed.
+
+To reverse the array, you will need to swap the elements for that the first element becomes the last and so on.
