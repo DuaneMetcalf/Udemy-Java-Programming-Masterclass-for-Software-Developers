@@ -1,0 +1,27 @@
+Modify the HeavenlyBody example so that the HeavenlyBody class also has a bodyType field. This field will store the type of HeavenlyBody, such as Start, Planet, Moon etc.
+
+You can include as many types as you want, but it must support Planet and Moon at the least.
+
+For each of the types that you support, subclass the HeavenlyBody class so that your program can create objects of the appropriate types.
+
+For the purpose of this exercise, two bodies will be allowed the same name as long as they are not the same type of body: so for example, you could have a star called BetaMinor and an asteroid called BetaMinor.
+This makes it easier to implement for the Set than it is for the Map, because the Map will need a key that uses both fields.
+
+There is a restriction that the only satellites a planet can have must be moons. Even if you don't implement a Star type, your program should not prevent one being added in the future, and a Star's satellites can be almost every kind of HeavenlyBody
+
+Test cases:
+        1. The planets and moons that we added in the previous video should appear in
+        the solarSystem collection and in the sets of moons for the appropriate planets.
+
+        2. a.equals(b) must return the same result as b.equals(a) - equals is symmetric.
+
+        3. Attempting to add a duplicate to a Set must result in no change to the set (so
+        the original value is not replaced by the new one).
+
+        4. Attempting to add a duplicate to a Map results in the original being replaced
+        by the new object.
+
+        5. Two bodies with the same name but different designations can be added to the same set.
+
+        6. Two bodies with the same name but different designations can be added to the same map,
+        and can be retrieved from the map.
